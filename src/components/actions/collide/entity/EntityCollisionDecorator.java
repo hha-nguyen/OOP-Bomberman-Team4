@@ -90,14 +90,14 @@ public abstract class EntityCollisionDecorator extends CollisionDecorator {
         boolean upperLeftCornerCollied, upperRightCornerCollied;
 
         upperLeftCornerCollied = getXLeftWithoutMargin() >= getCollidedEntity().getX()
-                && getXLeftWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
-                && getYTop() >= getCollidedEntity().getY()
-                && getYTop() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
+                    && getXLeftWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
+                    && getYTop() >= getCollidedEntity().getY()
+                    && getYTop() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
 
         upperRightCornerCollied = getXRightWithoutMargin() >= getCollidedEntity().getX()
-                && getXRightWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
-                && getYTop() >= getCollidedEntity().getY()
-                && getYTop() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
+                    && getXRightWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
+                    && getYTop() >= getCollidedEntity().getY()
+                    && getYTop() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
 
         return isStrict()
                 ? upperLeftCornerCollied && upperRightCornerCollied
@@ -108,14 +108,14 @@ public abstract class EntityCollisionDecorator extends CollisionDecorator {
         boolean lowerLeftCornerCollied, lowerRightCornerCollied;
 
         lowerLeftCornerCollied = getXLeftWithoutMargin() >= getCollidedEntity().getX()
-                && getXLeftWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
-                && getYBottom() >= getCollidedEntity().getY()
-                && getYBottom() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
+                    && getXLeftWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
+                    && getYBottom() >= getCollidedEntity().getY()
+                    && getYBottom() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
 
         lowerRightCornerCollied = getXRightWithoutMargin() >= getCollidedEntity().getX()
-                && getXRightWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
-                && getYBottom() >= getCollidedEntity().getY()
-                && getYBottom() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
+                    && getXRightWithoutMargin() <= getCollidedEntity().getX() + getCollidedEntity().getWidth()
+                    && getYBottom() >= getCollidedEntity().getY()
+                    && getYBottom() <= getCollidedEntity().getY() + getCollidedEntity().getHeight();
 
         return isStrict()
                 ? lowerLeftCornerCollied && lowerRightCornerCollied

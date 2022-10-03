@@ -3,7 +3,10 @@ package components.entities.dynamics.characters.player;
 import components.actions.attack.Attack;
 import components.actions.attack.AttackAction;
 import components.actions.attack.controlled.ControlledBombPlacing;
-import components.actions.move.collision.*;
+import components.actions.move.collision.AvoidingBlock;
+import components.actions.move.collision.AvoidingBomb;
+import components.actions.move.collision.AvoidingObstacle;
+import components.actions.move.collision.AvoidingSolidTile;
 import components.actions.move.type.KeyboardBasedMove;
 import components.actions.pickup.PickUp;
 import components.actions.pickup.PickUpAction;
@@ -63,10 +66,10 @@ public abstract class Player extends Character {
         pickUp = new ItemPickUp(pickUp);
 
         move = new KeyboardBasedMove(move);
-        move = new components.actions.move.collision.AvoidingSolidTile(move);
-        move = new components.actions.move.collision.AvoidingObstacle(move);
-        move = new components.actions.move.collision.AvoidingBlock(move);
-        move = new components.actions.move.collision.AvoidingBomb(move);
+        move = new AvoidingSolidTile(move);
+        move = new AvoidingObstacle(move);
+        move = new AvoidingBlock(move);
+        move = new AvoidingBomb(move);
     }
 
     @Override

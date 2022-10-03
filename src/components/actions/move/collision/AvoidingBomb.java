@@ -1,4 +1,4 @@
-package components.actions.move.conllision;
+package components.actions.move.collision;
 
 import components.actions.collide.entity.BombCollision;
 import components.actions.move.Move;

@@ -147,10 +147,10 @@ public abstract class Entity {
 
     public void render(Graphics graphics) {
         graphics.drawImage(currentFrame, (int) (x - handler.getCamera().getXOffset()),
-            (int) (y - handler.getCamera().getYOffset()), width, height, null);
+                (int) (y - handler.getCamera().getYOffset()), width, height, null);
 
         graphics.drawRect((int) (x - handler.getCamera().getXOffset()), (int) (y - handler.getCamera().getYOffset()),
-            width, height);
+                width, height);
     }
 
     public abstract void tick();
