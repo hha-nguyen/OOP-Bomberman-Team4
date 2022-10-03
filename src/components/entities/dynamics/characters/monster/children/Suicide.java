@@ -6,7 +6,10 @@ import components.actions.attack.AttackAction;
 import components.actions.attack.collision.CollisionExplosion;
 import components.actions.drop.DropAcction;
 import components.actions.move.MoveAction;
-import components.actions.move.collision.*;
+import components.actions.move.collision.AvoidingBlock;
+import components.actions.move.collision.AvoidingBomb;
+import components.actions.move.collision.AvoidingObstacle;
+import components.actions.move.collision.AvoidingSolidTile;
 import components.actions.move.type.Follow;
 import components.entities.dynamics.characters.Character;
 import components.entities.dynamics.characters.monster.Monster;
@@ -42,10 +45,10 @@ public class Suicide extends Monster {
         drop = new DropAcction(this);
 
         move = new MoveAction(this);
-        move = new components.actions.move.collision.AvoidingSolidTile(move);
-        move = new components.actions.move.collision.AvoidingBlock(move);
-        move = new components.actions.move.collision.AvoidingObstacle(move);
-        move = new components.actions.move.collision.AvoidingBomb(move);
+        move = new AvoidingSolidTile(move);
+        move = new AvoidingBlock(move);
+        move = new AvoidingObstacle(move);
+        move = new AvoidingBomb(move);
         move = new Follow(move, (Character) EntityCache.get("player").get(0));
 
         attack = new AttackAction(this);

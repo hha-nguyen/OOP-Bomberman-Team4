@@ -1,4 +1,4 @@
-package components.actions.move.conllision;
+package components.actions.move.collision;
 
 import components.actions.collide.tile.SolidTileCollision;
 import components.actions.move.Move;

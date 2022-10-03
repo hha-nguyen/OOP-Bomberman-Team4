@@ -229,13 +229,13 @@ public class Follow extends MoveDecorator {
                 // Add left
                 if (curNode.getTile().getX() > endNode.getTile().getX()) {
                     moves.add(3);
-                    // Add right
+                // Add right
                 } else if (curNode.getTile().getX() < endNode.getTile().getX()) {
                     moves.add(4);
-                    // Add up
+                // Add up
                 } else if (curNode.getTile().getY() > endNode.getTile().getY()) {
                     moves.add(1);
-                    // Add down
+                // Add down
                 } else if (curNode.getTile().getY() < endNode.getTile().getY()) {
                     moves.add(2);
                 }
@@ -290,7 +290,7 @@ public class Follow extends MoveDecorator {
 
         for (int i = 0; i < EntityCache.get("obstacle").size(); i++) {
             if (Helper.getXOfTile(EntityCache.get("obstacle").get(i).getX()) == node.getTile().getX()
-                && Helper.getYOfTile(EntityCache.get("obstacle").get(i).getY()) == node.getTile().getY()) {
+                    && Helper.getYOfTile(EntityCache.get("obstacle").get(i).getY()) == node.getTile().getY()) {
                 isObstacle = true;
             }
         }

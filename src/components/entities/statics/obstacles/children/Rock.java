@@ -1,4 +1,4 @@
-package components.entities.statics.obstaacles.children;
+package components.entities.statics.obstacles.children;
 
 import asset.Asset;
 import components.entities.statics.obstacles.Obstacle;

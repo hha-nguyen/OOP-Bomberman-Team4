@@ -9,7 +9,7 @@ import components.entities.statics.explosions.Explosion;
 import components.entities.statics.explosions.children.ExplosionD;
 
 public class Yveltal extends Monster {
-
+    
     private int range;
 
     private Explosion explosion;
@@ -43,7 +43,7 @@ public class Yveltal extends Monster {
     @Override
     protected void loadAllFrames() {
         super.loadAllFrames();
-
+        
         this.upFrames.add(Asset.get("yveltal").crop(15, 8, 108, 94));
         this.upFrames.add(Asset.get("yveltal").crop(142, 8, 108, 94));
         this.upFrames.add(Asset.get("yveltal").crop(260, 8, 108, 94));

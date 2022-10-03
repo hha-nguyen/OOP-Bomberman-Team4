@@ -1,4 +1,4 @@
-package components.entities.statics.obstaacles;
+package components.entities.statics.obstacles;
 
 import components.entities.statics.StaticEntity;
 import config.TileConfig;

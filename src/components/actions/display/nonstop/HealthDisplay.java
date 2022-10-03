@@ -34,19 +34,19 @@ public class HealthDisplay extends DisplayDecorator {
     private void displayBox(Graphics graphics) {
         graphics.setColor(Color.WHITE);
         graphics.drawRect(
-            (int) (getEntity().getX() - handler.getCamera().getXOffset() - 1),
-            (int) (getEntity().getY() - handler.getCamera().getYOffset() - 21),
-            getEntity().getWidth() + 1,
-            6);
+                (int) (getEntity().getX() - handler.getCamera().getXOffset() - 1),
+                (int) (getEntity().getY() - handler.getCamera().getYOffset() - 21),
+                getEntity().getWidth() + 1,
+                6);
     }
 
     private void displayHealth(Graphics graphics) {
         graphics.setColor(Color.RED);
         graphics.fillRect(
-            (int) (getEntity().getX() - handler.getCamera().getXOffset()),
-            (int) (getEntity().getY() - handler.getCamera().getYOffset() - 20),
-            (int) (getEntity().getWidth()*(getEntity().getHealth() / (float) getEntity().getLife())),
-            5);
+                (int) (getEntity().getX() - handler.getCamera().getXOffset()),
+                (int) (getEntity().getY() - handler.getCamera().getYOffset() - 20),
+                (int) (getEntity().getWidth()*(getEntity().getHealth() / (float) getEntity().getLife())),
+                5);
     }
 
     private void displayText(Graphics graphics) {

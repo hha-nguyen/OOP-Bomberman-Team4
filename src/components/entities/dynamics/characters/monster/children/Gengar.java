@@ -9,7 +9,7 @@ import components.entities.statics.explosions.Explosion;
 import components.entities.statics.explosions.children.ExplosionD;
 
 public class Gengar extends Monster{
-
+    
     private int range;
 
     private Explosion explosion;
@@ -43,7 +43,7 @@ public class Gengar extends Monster{
     @Override
     protected void loadAllFrames() {
         super.loadAllFrames();
-
+        
         this.upFrames.add(Asset.get("gengar").crop(25, 17, 170, 141));
         this.upFrames.add(Asset.get("gengar").crop(240, 17, 170, 141));
         this.upFrames.add(Asset.get("gengar").crop(455, 17, 170, 141));

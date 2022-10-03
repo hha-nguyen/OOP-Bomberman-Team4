@@ -5,6 +5,7 @@ import components.actions.collide.CollisionAction;
 import components.actions.collide.entity.ItemCollision;
 import components.actions.pickup.PickUp;
 import components.actions.pickup.PickUpDecorator;
+import components.entities.dynamics.characters.player.Player;
 import components.entities.statics.items.Item;
 
 public class ItemPickUp extends PickUpDecorator {
