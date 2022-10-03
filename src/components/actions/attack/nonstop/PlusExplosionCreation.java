@@ -1,8 +1,5 @@
 package components.actions.attack.nonstop;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import app.cache.EntityCache;
 import components.actions.attack.Attack;
 import components.actions.attack.AttackDecorator;
@@ -11,6 +8,9 @@ import components.actions.collide.CollisionAction;
 import components.actions.collide.entity.ObstacleCollision;
 import components.actions.collide.tile.SolidTileCollision;
 import components.entities.statics.explosions.Explosion;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PlusExplosionCreation extends AttackDecorator {
 

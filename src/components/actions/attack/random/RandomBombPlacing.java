@@ -1,10 +1,10 @@
 package components.actions.attack.random;
 
-import java.util.Random;
-
 import components.actions.attack.Attack;
 import components.actions.attack.nonstop.BombPlacing;
 import components.entities.statics.bombs.Bomb;
+
+import java.util.Random;
 
 public class RandomBombPlacing extends BombPlacing {
 
