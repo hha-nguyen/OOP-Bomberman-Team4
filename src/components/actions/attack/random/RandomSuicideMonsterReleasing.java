@@ -1,9 +1,9 @@
 package components.actions.attack.random;
 
-import java.util.Random;
-
 import components.actions.attack.Attack;
 import components.actions.attack.nonstop.SuicideMonsterReleasing;
+
+import java.util.Random;
 
 public class RandomSuicideMonsterReleasing extends SuicideMonsterReleasing {
 

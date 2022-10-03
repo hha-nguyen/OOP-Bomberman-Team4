@@ -1,9 +1,9 @@
 package components.actions.collide;
 
+import components.entities.Entity;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import components.entities.Entity;
 
 public class CollisionAction implements Collision {
 

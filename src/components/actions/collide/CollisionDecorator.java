@@ -1,8 +1,8 @@
 package components.actions.collide;
 
-import java.util.List;
-
 import components.entities.Entity;
+
+import java.util.List;
 
 public abstract class CollisionDecorator implements Collision {
 

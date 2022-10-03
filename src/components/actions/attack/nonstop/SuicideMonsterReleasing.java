@@ -1,10 +1,11 @@
 package components.actions.attack.nonstop;
 
+import app.cache.EntityCache;
 import components.actions.attack.Attack;
 import components.actions.attack.AttackDecorator;
 import components.entities.dynamics.characters.monster.Monster;
-import factories.monster.*;
-import app.cache.EntityCache;
+import factories.monster.BasicMonsterFactory;
+import factories.monster.MonsterFactory;
 
 public class SuicideMonsterReleasing extends AttackDecorator {
 
