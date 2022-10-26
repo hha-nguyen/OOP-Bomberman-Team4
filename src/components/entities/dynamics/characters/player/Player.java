@@ -43,7 +43,7 @@ public abstract class Player extends Character {
 
     @Override
     protected void setEntityParameters() {
-        padding = 5;
+        padding = 10;
         margin = 5;
         width = PlayerConfig.WIDTH;
         height = PlayerConfig.HEIGHT;

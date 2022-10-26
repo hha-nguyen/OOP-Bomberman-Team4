@@ -31,7 +31,7 @@ public abstract class Model<T> {
     @SuppressWarnings("unchecked")
     public Model<T> wherePhase(int phase) {
         JSONArray result = (JSONArray) (Helper.readJsonArray(table)).get(phase);
-
+        System.out.println(phase);
         result.forEach(r -> {
             parseObject((JSONObject) r);
         });
