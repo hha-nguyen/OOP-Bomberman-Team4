@@ -13,9 +13,9 @@ public class Kirito extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 120;
-        health = 120;
-        speed = 2.2f;
+        life = 150;
+        health = 150;
+        speed = 5.0f;
     }
 
     @Override

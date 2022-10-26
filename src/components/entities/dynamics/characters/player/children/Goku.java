@@ -13,8 +13,8 @@ public class Goku extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 100;
-        health = 100;
+        life = 200;
+        health = 200;
         speed = 3.0f;
     }
 

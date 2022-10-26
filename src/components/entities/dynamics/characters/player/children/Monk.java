@@ -13,9 +13,9 @@ public class Monk extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 60;
-        health = 60;
-        speed = 4.5f;
+        life = 200;
+        health = 200;
+        speed = 2.5f;
     }
 
     @Override
