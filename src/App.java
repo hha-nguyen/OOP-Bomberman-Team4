@@ -1,3 +1,4 @@
+import config.KeyConfig;
 import core.Handler;
 public class App {
 

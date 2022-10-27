@@ -1,5 +1,6 @@
 package app.controllers;
 
+import java.awt.event.KeyEvent;
 import java.util.List;
 
 import app.cache.*;
@@ -12,6 +13,7 @@ import components.entities.dynamics.characters.player.Player;
 import components.entities.statics.blocks.Block;
 import components.entities.statics.obstacles.Obstacle;
 import components.entities.statics.traps.Trap;
+import config.KeyConfig;
 import helper.Helper;
 
 public class GameController {
@@ -55,7 +57,6 @@ public class GameController {
 
         // Load map
         Helper.event(new MapLoadingEvent((int) GameCache.get("phase")));
-
         return view;
     }
 }

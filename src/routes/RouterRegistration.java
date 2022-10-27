@@ -14,6 +14,7 @@ public class RouterRegistration {
         this.router.register("Menu", "MenuController@showHomeMenu");
         this.router.register("PauseMenu", "MenuController@showPauseMenu");
         this.router.register("GameOverMenu", "MenuController@showGameOverMenu");
+        this.router.register("OptionsMenu", "MenuController@showOptionsMenu");
         this.router.register("Game", "GameController@playSolo");
         this.router.register("Character", "CharacterController@selectCharacter");
 

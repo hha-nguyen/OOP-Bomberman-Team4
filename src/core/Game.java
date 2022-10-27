@@ -6,6 +6,7 @@ import java.awt.Graphics;
 
 import config.AppConfig;
 import config.GameConfig;
+import config.KeyConfig;
 
 public class Game implements Runnable {
 

@@ -1,9 +1,6 @@
 package app.controllers;
 
-import app.views.GameOverView;
-import app.views.MenuView;
-import app.views.PauseView;
-import app.views.View;
+import app.views.*;
 
 public class MenuController {
 
@@ -21,6 +18,12 @@ public class MenuController {
 
     public View showGameOverMenu() {
         View view = new GameOverView();
+
+        return view;
+    }
+
+    public View showOptionsMenu() {
+        View view = new OptionsView();
 
         return view;
     }

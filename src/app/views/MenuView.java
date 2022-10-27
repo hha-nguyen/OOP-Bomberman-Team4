@@ -4,6 +4,7 @@ import java.awt.Graphics;
 import java.util.ArrayList;
 
 import components.ui.Element;
+import components.ui.button.OptionsButton;
 import components.ui.button.PlayButton;
 import components.ui.button.QuitButton;
 import components.ui.image.menu.MenuBackground;
@@ -20,7 +21,8 @@ public class MenuView extends View {
 
         // Add butons
         elements.add(new PlayButton(6, 6, 0, 0, 0, 0));
-        elements.add(new QuitButton(6, 7, 0, 0, 0, 0));
+        elements.add(new OptionsButton(6, 7, 0, 0, 0, 0));
+        elements.add(new QuitButton(6, 8, 0, 0, 0, 0));
 
         // Add text
         elements.add(new MenuTitle(6, 3, 0, 0, 0, 0));
