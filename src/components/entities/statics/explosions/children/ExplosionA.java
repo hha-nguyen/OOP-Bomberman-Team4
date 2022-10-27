@@ -7,7 +7,7 @@ public class ExplosionA extends Explosion {
 
     @Override
     protected void setEntityParameters() {
-        damage = 5;
+        damage = 20;
     }
 
     @Override

@@ -21,7 +21,6 @@ public class Keyboard implements KeyListener, Module {
         left = new Key();
         right = new Key();
         attack = new Key();
-
         keyUp = KeyConfig.UP;
         keyDown = KeyConfig.DOWN;
         keyLeft = KeyConfig.LEFT;

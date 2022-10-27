@@ -80,6 +80,7 @@ public class Asset {
             "ui01@user-interfaces/button01.png",
             "ui02@user-interfaces/button02.png",
             "ui03@user-interfaces/frame01.png",
+            "ui04@user-interfaces/button03.png",
             "kid-avatar@user-interfaces/kid-avatar.png",
             "monk-avatar@user-interfaces/monk-avatar.png",
             "shadow-avatar@user-interfaces/shadow-avatar.png",
