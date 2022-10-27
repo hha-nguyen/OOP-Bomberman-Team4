@@ -13,8 +13,8 @@ public class Bulbasaur extends Monster {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 5;
-        health = 5;
+        life = 40;
+        health = 40;
         damage = 20;
     }
 

@@ -50,7 +50,7 @@ Với các chức năng từ trái sang phải là: Tăng HP tối đa, Tăng da
 ![alt text](/res/images/preview/character-selection.png)
 
 
-* Điều khiển nhân vật: Sử dụng các phím mũi tên trái / phải / lên / xuống để điều khiển nhân vật.
+* Điều khiển nhân vật: Sử dụng các phím mũi tên trái / phải / lên / xuống hoặc WASD (phím điều khiển thay đổi ở màn hình chính) để điều khiển nhân vật.
 
 
 * Đặt bom: Sử dụng phím Space để đặt bom.

@@ -13,8 +13,8 @@ public class Monk extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 200;
-        health = 200;
+        life = 150;
+        health = 150;
         speed = 2.5f;
     }
 

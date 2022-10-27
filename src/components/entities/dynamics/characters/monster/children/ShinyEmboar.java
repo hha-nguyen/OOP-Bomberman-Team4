@@ -13,10 +13,10 @@ public class ShinyEmboar extends Monster {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 5;
-        health = 5;
+        life = 25;
+        health = 25;
         speed = 0.8f;
-        damage = 6;
+        damage = 10;
     }
 
     @Override

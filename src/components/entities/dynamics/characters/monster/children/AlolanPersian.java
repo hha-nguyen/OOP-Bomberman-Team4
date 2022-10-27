@@ -13,9 +13,9 @@ public class AlolanPersian extends Monster {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 10;
-        health = 10;
-        speed = 1.1f;
+        life = 100;
+        health = 100;
+        speed = 1.5f;
         damage = 5;
     }
 

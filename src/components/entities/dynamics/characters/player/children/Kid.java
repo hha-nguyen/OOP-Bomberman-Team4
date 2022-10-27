@@ -13,8 +13,8 @@ public class Kid extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 180;
-        health = 180;
+        life = 120;
+        health = 120;
         speed = 3.0f;
     }
 

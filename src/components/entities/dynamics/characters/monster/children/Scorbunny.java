@@ -13,9 +13,9 @@ public class Scorbunny extends Monster {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 1;
-        health = 1;
-        speed = 1.2f;
+        life = 10;
+        health = 10;
+        speed = 1.8f;
         damage = 25;
     }
 

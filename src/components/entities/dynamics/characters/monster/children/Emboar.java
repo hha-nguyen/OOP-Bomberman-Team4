@@ -13,10 +13,10 @@ public class Emboar extends Monster {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 16;
-        health = 16;
-        speed = 1.0f;
-        damage = 7;
+        life = 20;
+        health = 20;
+        speed = 1.3f;
+        damage = 10;
     }
 
     @Override

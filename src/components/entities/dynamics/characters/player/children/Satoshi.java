@@ -13,8 +13,8 @@ public class Satoshi extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 140;
-        health = 140;
+        life = 100;
+        health = 100;
         speed = 4.5f;
     }
 

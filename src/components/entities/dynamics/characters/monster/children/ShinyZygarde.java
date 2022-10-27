@@ -13,10 +13,10 @@ public class ShinyZygarde extends Monster {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 50;
-        health = 50;
-        speed = 4.5f;
-        damage = 1;
+        life = 100;
+        health = 100;
+        speed = 5.0f;
+        damage = 10;
     }
 
     @Override

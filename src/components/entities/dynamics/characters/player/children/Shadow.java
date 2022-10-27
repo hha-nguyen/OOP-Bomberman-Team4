@@ -13,9 +13,9 @@ public class Shadow extends Player {
     protected void setEntityParameters() {
         super.setEntityParameters();
 
-        life = 250;
-        health = 250;
-        speed = 2.8f;
+        life = 200;
+        health = 200;
+        speed = 2.0f;
     }
 
     @Override

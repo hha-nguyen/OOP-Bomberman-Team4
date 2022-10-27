@@ -6,7 +6,7 @@ import components.entities.statics.items.Item;
 
 public class Life extends Item {
 
-    private final int VALUE = 30;
+    private final int VALUE = 20;
 
     @Override
     protected void setEntityParameters() {
