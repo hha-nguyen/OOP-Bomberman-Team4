@@ -6,7 +6,7 @@ import components.entities.statics.items.Item;
 
 public class HealPotion extends Item {
 
-    private final int VALUE = 10;
+    private final int VALUE = 25;
 
     @Override
     protected void setEntityParameters() {

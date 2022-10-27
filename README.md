@@ -27,7 +27,7 @@ Giống như Bommer, Monster cũng có nhiều loại:
   > ![alt text](/res/images/preview/monster3.jpg)
 
 
-* Block: Không cho phép đặt Bomb lên nhưng có thể bị phá hủy bởi Bomb được đặt gần đó. Bomber và Enemy thông thường không thể di chuyển vào vị trí Brick khi nó chưa bị phá hủy.
+* Block: Không cho phép đặt Bomb lên nhưng có thể bị phá hủy bởi Bomb được đặt gần đó. Bomber và Monster thông thường không thể di chuyển vào vị trí Block khi nó chưa bị phá hủy.
   > ![alt text](/res/images/preview/block.jpg)
 
 
@@ -57,9 +57,9 @@ Với các chức năng từ trái sang phải là: Tăng HP tối đa, Tăng da
 
 
 ## Một vài lưu ý khi chơi game:
-* Bạn phải tiêu diệt hết quái để qua màn mới.
+* Bạn phải tiêu diệt hết quái để qua màn mới. Qua màn mới, nhân vật sẽ reset lại chỉ số ban đầu.
 * Sau khi bom nổ, nó sẽ để lại vụ nổ hình dấu công xung quang, khi bomber tiếp xúc sẽ mất máu.
-* Có thể tạm dừng trò chơi.
+* Có thể tạm dừng trò chơi / thoát game khi đang chơi.
 
 ## Các kiến thức liên quan:
 * Thuật toán Dijkstra
